@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: "luckistguy_titulo";
+    src: url(fonts/LuckiestGuy-Regular.ttf);
+   
+    font-family: "merriweathersans";
+    src: url(fonts/MerriweatherSans-Regular.ttf);
+    
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -7,4 +17,57 @@
 
 body {
     background-color: #16B573;
+}
+
+.container-grid {
+    /* width: 1080px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.portifolio {
+    width: 1300px;
+    height: 740px;
+    background-color: #1C2A2D;
+    margin: auto;
+       
+}
+
+.portifolio h1 {
+    text-align: left;
+    font-family: "luckistguy_titulo";
+    color: #FFFFFF;
+    padding-top: 20px;
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+#nome {
+    text-align: left;
+    font-family: "merriweathersans";
+    color: #FFFFFF;
+    font-size: 40px;
+    
+}
+
+.portifolio p {
+    text-align: left;
+    font-family: "merriweathersans";
+    color: #FFFFFF;
+    font-size: 28px;
+    padding-top: 10px;
+    margin-left: 60px;
+}
+
+.portifolio img {
+    width: 309px;
+}
+
+.apresentacao {
+    display:flex;
+    justify-content: space-between;
+    gap: 150px;
 }
