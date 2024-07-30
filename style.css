@@ -30,7 +30,7 @@ body {
 
 .portifolio {
     width: 1300px;
-    height: 740px;
+    height: 550px;
     background-color: #1C2A2D;
     margin: auto;
        
@@ -41,7 +41,7 @@ body {
     font-family: "luckistguy_titulo";
     color: #FFFFFF;
     padding-top: 20px;
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 60px;
 }
 
@@ -49,7 +49,7 @@ body {
     text-align: left;
     font-family: "merriweathersans";
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 35px;
     
 }
 
@@ -57,17 +57,50 @@ body {
     text-align: left;
     font-family: "merriweathersans";
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: 25px;
     padding-top: 10px;
     margin-left: 60px;
 }
 
 .portifolio img {
-    width: 309px;
+    width: 250px;
 }
 
 .apresentacao {
     display:flex;
     justify-content: space-between;
     gap: 150px;
+}
+
+.ferramentas {
+    width: 1300px;
+    height: 490px;
+    background-color: #1C2A2D;
+    margin: auto;
+       
+}
+
+.ferramentas h1 {
+    text-align: center;
+    font-family: "luckistguy_titulo";
+    color: #FFFFFF;
+    padding-top: 50px;
+    font-size: 50px;
+
+}
+
+.programas {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.programas_2 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
 }
