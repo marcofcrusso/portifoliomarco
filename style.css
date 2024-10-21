@@ -95,14 +95,15 @@ body {
     justify-content: center;
     align-items: center;
     gap: 200px;
+    flex-wrap: wrap-reverse; /*serve para quebrar imagens de forma responsiva*/
 }
-
 .programas_2 {
     padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 200px;
+    flex-wrap: wrap-reverse; /*serve para quebrar imagens de forma responsiva*/
 }
 
 .formacao_hobbies {
@@ -118,6 +119,7 @@ body {
     max-width: 600px; /*define o tamanho maximo respeitando a porcnetagem 90% */
     background-color: #16B573;
     height: 300px;
+    
 }
 
 .formacao_hobbies{
@@ -125,6 +127,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding-top: 50px;
 }
 
 .formacao h1 {
@@ -149,7 +152,6 @@ body {
 }
 
 
-
 .hobbies {
     width: 100%;
     max-width: 600px;
@@ -162,4 +164,5 @@ body {
     font-size: 40px;
     text-align: center;
 }
+
 
